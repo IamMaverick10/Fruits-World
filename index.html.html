@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRUIT WORLD</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f9f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #32CD32, #ADFF2F);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #2f4f4f;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .characters {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .character {
+      position: relative;
+      width: 280px;
+      text-align: center;
+      cursor: pointer;
+    }
+    .character img {
+      width: 100%;
+      border-radius: 15px;
+      border: 4px solid #ccc;
+      transition: transform 0.3s ease;
+    }
+    .character:hover img {
+      transform: scale(1.05);
+    }
+    .info {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.8);
+      color: white;
+      padding: 10px;
+      font-size: 0.9em;
+      border-radius: 0 0 15px 15px;
+    }
+    .character:hover .info {
+      display: block;
+    }
+    .roadmap {
+      background-color: #fff3cd;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+    footer {
+      background-color: #2f4f4f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .social-links a {
+      color: #00FFFF;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FRUIT WORLD</h1>
+    <p>The ultimate political showdown between King Pea and Chief Nana. Launching this August!</p>
+  </header>
+
+  <nav>
+    <a href="#homepage">Homepage</a>
+    <a href="#about">About</a>
+    <a href="#roadmap">Roadmap</a>
+  </nav>
+
+  <section class="section" id="homepage">
+    <h2>Welcome</h2>
+    <p>Welcome to the fascinating world where the Vegetable Kingdom reigns supreme under the rule of King Pea. Here, the balance of power is constantly tested between the vegetables and the fruits. Dive into an epic story of leadership, rebellion, and mystery as you explore the lives of the main characters and their struggles for control. Stay tuned for exciting updates and new chapters as the conflict unfolds.</p>
+
+    <div class="characters">
+      <div class="character">
+        <img src="images/king-pea.jpg" alt="King Pea">
+        <div class="info">
+          <strong>King Pea info:</strong> King Pea, a vegetable, is currently the king of the world. He controls everything and rules in favor of his clan, the vegetables. He likes to annoy the fruits often and makes them work harder than normal. Will he continue to be in power, or will the fruits take over?
+        </div>
+      </div>
+      <div class="character">
+        <img src="images/chief-nana.jpg" alt="Chief Nana">
+        <div class="info">
+          <strong>Chief Nana info:</strong> Chief Nana, a fruit, is tired of being excluded in the political discussions and cannot stand the vegetable supremacy. He recently formed a secret organization to overthrow the king called: TFF (The Fruit Force). Will he be able to gather an army big enough to overthrow King Pea?
+        </div>
+      </div>
+      <div class="character">
+        <img src="images/mystery.jpg" alt="New Character">
+        <div class="info">
+          <strong>New Character:</strong> 👀Already announced in Telegram, will be announced globally soon...
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About</h2>
+    <p>The Vegetable Kingdom is currently ruled by King Pea, a cunning and proud leader who prioritizes the interests of his vegetable clan above all else. Under his rule, vegetables enjoy power and privilege, but this comes at the cost of the fruits, who are often overworked and excluded from political influence.</p>
+
+    <p>Chief Nana, a strong-willed fruit, refuses to accept this injustice. Frustrated by the ongoing vegetable supremacy, he has secretly organized a resistance group called The Fruit Force (TFF), aimed at challenging King Pea’s authority and restoring balance to the kingdom. Their mission is dangerous and uncertain, but their hope is strong.</p>
+
+    <p>Adding to the tension is a mysterious new character, already teased on Telegram, whose true motives and allegiances remain unknown. This figure promises to bring new twists to the story and could change the fate of the entire kingdom.</p>
+  </section>
+
+  <section class="section roadmap" id="roadmap">
+    <h2>Roadmap</h2>
+    <ul>
+      <li><strong>Phase 1:</strong> Establishment of the Kingdom’s Landscape - Introduction of King Pea and Chief Nana, setting the stage for the vegetable-fruit rivalry and the political dynamics within the kingdom.</li>
+      <li><strong>Phase 2:</strong> Rise of The Fruit Force - Chief Nana forms the secret organization TFF to rally fruits and plan strategic moves against vegetable dominance.</li>
+      <li><strong>Phase 3:</strong> Reveal of the Mysterious Character - The enigmatic figure, first announced on Telegram, will be unveiled to the public, bringing new challenges and alliances.</li>
+      <li><strong>Phase 4:</strong> Conflict and Resolution - Intense battles and political maneuvers shape the future of the kingdom, determining whether the fruits reclaim power or King Pea maintains control.</li>
+      <li><strong>Phase 5:</strong> Expansion and New Stories - As the kingdom evolves, more characters and story arcs will be introduced, expanding the lore and deepening the conflict.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="http://t.me/fruitworld1" target="_blank">Telegram</a>
+      <a href="https://x.com/fruit_world1" target="_blank">Twitter (X)</a>
+    </div>
+    <p>&copy; 2025 FRUIT WORLD. All rights reserved.</p>
+  </footer>
+</body>
+</html>
